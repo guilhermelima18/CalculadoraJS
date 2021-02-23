@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8ebee;
+}
+
+.container {
+    background-color: white;
+    width: 40%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px 3px black;
+}
+
+.container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.container input {
+    width: 330px;
+    height: 50px;
+    outline: none;
+    padding: 0 10px;
+    font-size: 30px;
+    text-align: right;
+}
+
+.container table thead tr td {
+    width: 80px;
+    height: 80px;
+}
+
+.container table thead tr td button {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-eq {
+    background-color: royalblue;
+    color: white;
+}
